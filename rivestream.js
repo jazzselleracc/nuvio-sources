@@ -1,8 +1,9 @@
 function getStreams(tmdbId, mediaType, season, episode) {
   var API_BASE = "https://scrapper.rivestream.app";
   var PROVIDERS = [
-    "apex", "pulse", "solstice", "quasar", "primevids",
-    "flowcast", "citadel", "guru", "asiacloud", "horizon", "hindicast"
+    "optic", "apex", "vanguard", "aura", "apogee", "rigel",
+    "hector", "pyro", "borealis", "quasar", "solstice",
+    "echo", "coral", "primevids", "citadel", "asiacloud"
   ];
 
   var headers = {
