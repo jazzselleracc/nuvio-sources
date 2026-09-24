@@ -1,11 +1,19 @@
 {
-  "id": "rivestream-embed-api",
-  "name": "Rivestream Provider",
-  "description": "Fetches streams from the Rivestream embed API",
+  "id": "rivestream-repository",
+  "name": "Rivestream Repo",
+  "description": "Custom streaming repository",
   "version": "1.0.0",
   "author": "jazzselleracc",
-  "supportedTypes": ["movie", "tv"],
-  "filename": "rivestream.js",
-  "enabled": true,
-  "contentLanguage": ["en"]
+  "providers": [
+    {
+      "id": "rivestream-embed-api",
+      "name": "Rivestream Provider",
+      "description": "Fetches streams from the Rivestream embed API",
+      "version": "1.0.0",
+      "supportedTypes": ["movie", "tv"],
+      "filename": "rivestream.js",
+      "enabled": true,
+      "contentLanguage": ["en"]
+    }
+  ]
 }
